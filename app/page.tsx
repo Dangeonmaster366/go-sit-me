@@ -12,7 +12,7 @@ export default function GoSitMe() {
         <h1 className="text-4xl font-extrabold mb-4 text-center whitespace-nowrap">
           GoSitMe: Escape From the Void
         </h1>
-        <p className="text-sm text-gray-500 mt-6 mb-12 max-w-md mx-auto text-center">
+        <p className="text-sm text-gray-500 mt-6 mb-8 max-w-md mx-auto text-center">
           For just $99 a night, you can rescue Jared from the soul-crushing silence of
           a furniture-free apartment. He's currently marooned on bare floors,
           trying to make eye contact with the wall. Let’s put an end to the madness.
@@ -48,7 +48,7 @@ export default function GoSitMe() {
         </div>
 
 
-        <p className="text-sm text-gray-500 mt-6 mb-12 max-w-md mx-auto text-center">
+        <p className="text-sm text-gray-500 mt-6 mb-8 max-w-md mx-auto text-center">
           100% of your donation goes directly to securing a hotel with a real bed,
           working TV, and maybe even a mini-fridge. No admin fees. No fluff. Just mercy.
         </p>
