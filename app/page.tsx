@@ -8,17 +8,17 @@ import { BadgeDollarSign, Home, Hotel } from "lucide-react";
 export default function GoSitMe() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
-      <div className="w-full max-w-screen-sm mx-auto">
+      <div className="w-full max-w-xl mx-auto text-center">
         <h1 className="text-4xl font-extrabold mb-4 text-center whitespace-nowrap">
           GoSitMe: Help Jared Escape the Void
         </h1>
-        <p className="text-sm text-gray-500 mt-6 max-w-md text-center mx-auto">
+        <p className="text-sm text-gray-500 mt-6 max-w-md mx-auto text-center">
           For just $99 a night, you can rescue Jared from the soul-crushing silence of
           a furniture-free apartment. He's currently marooned on bare floors,
           trying to make eye contact with the wall. Let’s put an end to the madness.
         </p>
 
-        <Card className="max-w-xl w-full mb-6 shadow-md rounded-lg bg-white">
+        <Card className="max-w-xl w-full mb-6 shadow-md rounded-lg bg-white mx-auto">
           <CardContent className="p-6 space-y-3 text-left">
             <div className="flex items-center space-x-4">
               <Home className="w-8 h-8 text-gray-700" />
@@ -41,17 +41,19 @@ export default function GoSitMe() {
           </CardContent>
         </Card>
 
-        <Button className="text-lg px-6 py-4 text-white bg-green-600 hover:bg-green-700 mx-auto">
-          Donate Now — Save a Butt from the Floor
-        </Button>
+        <div className="w-full flex justify-center my-4">
+          <Button className="text-lg px-6 py-4 text-white bg-green-600 hover:bg-green-700 mx-auto">
+            Donate Now — Save a Butt from the Floor
+          </Button>
+        </div>
 
 
-        <p className="text-sm text-gray-500 mt-6 max-w-md text-center">
+        <p className="text-sm text-gray-500 mt-6 max-w-md mx-auto text-center">
           100% of your donation goes directly to securing a hotel with a real bed,
           working TV, and maybe even a mini-fridge. No admin fees. No fluff. Just mercy.
         </p>
 
-        <Card className="max-w-xl w-full mb-6 shadow-md rounded-lg bg-white">
+        <Card className="max-w-xl w-full mb-6 shadow-md rounded-lg bg-white mx-auto">
           <CardContent className="p-6 space-y-3">
             <h2 className="text-xl font-bold mb-2 text-left">🏆 Tiered Rewards</h2>
             <ul className="list-disc list-outside pl-5 space-y-2 text-left">
@@ -65,7 +67,7 @@ export default function GoSitMe() {
 
         </Card>
 
-        <Card className="max-w-xl w-full mb-6 shadow-md rounded-lg bg-white">
+        <Card className="max-w-xl w-full mb-6 shadow-md rounded-lg bg-white mx-auto">
           <CardContent className="p-6 space-y-3 text-left">
             <h2 className="text-xl font-bold mb-2">💸 Recent Donors</h2>
             <ul className="space-y-2 text-sm">
