@@ -8,8 +8,8 @@ import { BadgeDollarSign, Home, Hotel } from "lucide-react";
 export default function GoSitMe() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
-      <div className="w-full max-w-2xl mx-auto px-4">
-        <h1 className="text-4xl font-extrabold mb-4 text-center">
+      <div className="w-full max-w-screen-sm mx-auto text-center">
+        <h1 className="text-4xl font-extrabold mb-4 text-center whitespace-nowrap">
           GoSitMe: Help Jared Escape the Void
         </h1>
         <p className="text-center max-w-xl text-lg mb-8">
@@ -19,7 +19,7 @@ export default function GoSitMe() {
         </p>
 
         <Card className="max-w-xl w-full mb-6 shadow-md rounded-lg bg-white">
-          <CardContent className="p-6 space-y-4">
+          <CardContent className="p-6 space-y-3 text-left">
             <div className="flex items-center space-x-4">
               <Home className="w-8 h-8 text-gray-700" />
               <p className="text-md">
@@ -51,7 +51,7 @@ export default function GoSitMe() {
         </p>
 
         <Card className="max-w-xl w-full mb-6 shadow-md rounded-lg bg-white">
-          <CardContent className="p-6 space-y-3">
+          <CardContent className="p-6 space-y-3 text-left">
             <h2 className="text-xl font-bold mb-2">🏆 Tiered Rewards</h2>
             <ul className="list-disc list-inside space-y-2">
               <li><strong>$5</strong> – Jared sends you a telepathic thank-you from the void.</li>
@@ -64,7 +64,7 @@ export default function GoSitMe() {
         </Card>
 
         <Card className="max-w-xl w-full mb-6 shadow-md rounded-lg bg-white">
-          <CardContent className="p-6 space-y-3">
+          <CardContent className="p-6 space-y-3 text-left">
             <h2 className="text-xl font-bold mb-2">💸 Recent Donors</h2>
             <ul className="space-y-2 text-sm">
               <li><strong>Mom</strong>: $10 — “Get a chair.”</li>
