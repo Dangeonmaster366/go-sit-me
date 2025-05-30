@@ -9,10 +9,10 @@ export default function GoSitMe() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       <div className="w-full max-w-screen-sm mx-auto">
-        <h1 className="text-4xl font-extrabold mb-4 text-center">
+        <h1 className="text-4xl font-extrabold mb-4 text-center whitespace-nowrap">
           GoSitMe: Help Jared Escape the Void
         </h1>
-        <p className="text-center max-w-xl text-lg mb-8">
+        <p className="text-sm text-gray-500 mt-6 max-w-md text-center mx-auto">
           For just $99 a night, you can rescue Jared from the soul-crushing silence of
           a furniture-free apartment. He's currently marooned on bare floors,
           trying to make eye contact with the wall. Let’s put an end to the madness.
@@ -41,9 +41,10 @@ export default function GoSitMe() {
           </CardContent>
         </Card>
 
-        <Button className="text-lg px-6 py-4 text-white bg-green-600 hover:bg-green-700">
+        <Button className="text-lg px-6 py-4 text-white bg-green-600 hover:bg-green-700 mx-auto">
           Donate Now — Save a Butt from the Floor
         </Button>
+
 
         <p className="text-sm text-gray-500 mt-6 max-w-md text-center">
           100% of your donation goes directly to securing a hotel with a real bed,
@@ -58,7 +59,7 @@ export default function GoSitMe() {
               <li><strong>$15</strong> – We throw in a single throw pillow. Yes, just one.</li>
               <li><strong>$25</strong> – Pillow fort fund initiated. You get a blurry photo of it.</li>
               <li><strong>$50</strong> – Jared gets snacks. You get a Snack Review email.</li>
-              <li><strong>$99</strong> – One night of hotel comfort. You get Jared’s eternal gratitude and maybe a TikTok dance of joy.</li>
+              <li><strong>$99</strong> – One night of hotel comfort. Jared does a TikTok dance.</li>
             </ul>
           </CardContent>
 
