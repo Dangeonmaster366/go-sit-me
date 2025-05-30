@@ -8,8 +8,8 @@ import { BadgeDollarSign, Home, Hotel } from "lucide-react";
 export default function GoSitMe() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
-      <div className="w-full max-w-screen-sm mx-auto text-center">
-        <h1 className="text-4xl font-extrabold mb-4 text-center whitespace-nowrap">
+      <div className="w-full max-w-screen-sm mx-auto">
+        <h1 className="text-4xl font-extrabold mb-4 text-center">
           GoSitMe: Help Jared Escape the Void
         </h1>
         <p className="text-center max-w-xl text-lg mb-8">
@@ -51,9 +51,9 @@ export default function GoSitMe() {
         </p>
 
         <Card className="max-w-xl w-full mb-6 shadow-md rounded-lg bg-white">
-          <CardContent className="p-6 space-y-3 text-left">
-            <h2 className="text-xl font-bold mb-2">🏆 Tiered Rewards</h2>
-            <ul className="list-disc list-inside space-y-2">
+          <CardContent className="p-6 space-y-3">
+            <h2 className="text-xl font-bold mb-2 text-left">🏆 Tiered Rewards</h2>
+            <ul className="list-disc list-outside pl-5 space-y-2 text-left">
               <li><strong>$5</strong> – Jared sends you a telepathic thank-you from the void.</li>
               <li><strong>$15</strong> – We throw in a single throw pillow. Yes, just one.</li>
               <li><strong>$25</strong> – Pillow fort fund initiated. You get a blurry photo of it.</li>
@@ -61,6 +61,7 @@ export default function GoSitMe() {
               <li><strong>$99</strong> – One night of hotel comfort. You get Jared’s eternal gratitude and maybe a TikTok dance of joy.</li>
             </ul>
           </CardContent>
+
         </Card>
 
         <Card className="max-w-xl w-full mb-6 shadow-md rounded-lg bg-white">
