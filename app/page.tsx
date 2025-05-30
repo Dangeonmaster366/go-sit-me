@@ -10,7 +10,7 @@ export default function GoSitMe() {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       <div className="w-full max-w-xl mx-auto text-center">
         <h1 className="text-4xl font-extrabold mb-4 text-center whitespace-nowrap">
-          GoSitMe: Help Jared Escape the Void
+          GoSitMe: Escape From the Void
         </h1>
         <p className="text-sm text-gray-500 mt-6 max-w-md mx-auto text-center">
           For just $99 a night, you can rescue Jared from the soul-crushing silence of
