@@ -8,7 +8,7 @@ import { BadgeDollarSign, Home, Hotel } from "lucide-react";
 export default function GoSitMe() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
-      <div className="w-full max-w-screen-sm">
+      <div className="w-full max-w-2xl mx-auto px-4">
         <h1 className="text-4xl font-extrabold mb-4 text-center">
           GoSitMe: Help Jared Escape the Void
         </h1>
