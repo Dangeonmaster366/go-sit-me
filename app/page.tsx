@@ -1,4 +1,7 @@
 "use client";
+
+import "./globals.css";
+
 import { Card, CardContent } from "../components/ui/card";
 import { Button } from "../components/ui/button";
 import { BadgeDollarSign, Home, Hotel } from "lucide-react";
